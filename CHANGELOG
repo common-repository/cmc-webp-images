@@ -1,0 +1,23 @@
+== Changelog ==
+= 20211208 =
+* Version 1.0.0 released.
+
+= 20211209 =
+* Version 1.0.1 released.
+* Fixed issue where removing .htaccess statements was leaving an errant return character.
+* Fixed issue where wp_cron would only start generating images after another page was viewed in the browser.
+
+= 20211209 =
+* Version 1.0.2 released.
+* Fixed typo in .htaccess.
+
+= 20211216 =
+* Version 1.0.3 released.
+* Delete webp images before recreating.
+* Added deactivation hook to remove .htaccess entries.
+
+= 20220118 =
+* Version 1.0.4 released.
+* Fixed issue where error would occur upon removing the imagewebp() PHP function AFTER the plugin was installed.
+
+
